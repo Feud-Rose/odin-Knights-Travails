@@ -100,10 +100,3 @@ function buildPath(node, path = []) {
 }
 
 console.log(buildPath(moveTree));
-
-class Square {
-  constructor(start) {
-    this.position = start;
-    this.prev = [null];
-  }
-}
